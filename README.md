@@ -6,22 +6,22 @@ Given a product name, it returns the most suitable category from a predefined li
 ## 🚀 How to Run
 
 1. Clone the repo  
-2. Instale as dependências:  
+2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Crie um arquivo `.env` com sua chave de API:  
+3. Create a `.env` file with your API key:  
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    ```
 
-4. Execute o script:  
+4. Run the script:  
    ```bash
    python classifier_003.py
    ```
 
-## 🧠 Exemplo
+## 🧠 Example
 
 ```
 Type a list of valid categories separated by commas: Green Electronics, Home Appliances, Toys
@@ -33,14 +33,14 @@ Output:
   Category: Green Electronics
 ```
 
-## 🛠️ Customização
+## 🛠️ Customization
 
-Digite sua própria lista de categorias quando solicitado na execução.
+Enter your own category list when prompted at runtime.
 
-## ⚠️ Nota
+## ⚠️ Note
 
-Este é um protótipo usando LLMs. Sempre valide a saída antes de usar em aplicações reais.
+This is a prototype using LLMs. Always validate the output before using it in real applications.
 
-## 📄 Licença
+## 📄 License
 
 MIT
